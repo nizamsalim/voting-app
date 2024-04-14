@@ -11,10 +11,10 @@ function App() {
     cpm: "Communist Party Of India",
   };
   const [votes, setVotes] = useState({
-    bjp: 1,
-    inc: 2,
-    cpm: 3,
-    dmk: 1,
+    bjp: 0,
+    inc: 0,
+    cpm: 0,
+    dmk: 0,
   });
 
   const handleVote = (party) => {
